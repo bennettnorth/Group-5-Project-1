@@ -1,3 +1,68 @@
+
+#Airport API Data - Austin
+# API endpoint URL
+url = "https://aeroapi.flightaware.com/aeroapi/airports/KAUS/routes/KDFW"
+
+# API Key
+api_key = "x-apikey"
+
+#Query parameters
+query_params = {
+    "max_pages": 1
+}
+
+# Send the API request
+response = requests.get(url, headers={api_key: config.api_key}, params=query_params)
+
+# Check if the API request was successful
+if response.status_code == 200:
+    #Get the data from the API response
+    data = response.json()
+    #Print the data
+    print(data)
+else:
+    # Print the error message
+    print("Error:", response.text)
+    
+    
+    
+
+
+
+
+
+
+
+passenger_count = {
+    "model1": 70,
+    "model2": 100,
+    "model3": 40,
+    "model4": 80,
+    "model5": 60
+}
+
+plane_models = {}
+
+for planes in austin_data_plane_test['aircraft_type']:
+    if austin_data_plane_test['aircraft_type'] != plane_models[planes]:
+        plane_models.append(planes['aircraft_type']).unique()
+
+
+
+print(plane_models)
+#dal_departures
+dfw_departures
+
+dal_df = pd.DataFrame(dfw_departures)
+
+dal_df.head()
+
+
+
+
+
+
+
 # Define the API endpoint and the parameters
 api_endpoint = "https://api.census.gov/data/"
 params = {
