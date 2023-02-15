@@ -25,6 +25,7 @@ Existing Rail Lines
 The current amtrak route connecting Austin and Dallas takes approximately 6 hours and 32 minutes - a far cry from the short ~1 hour flight. The existing Amtrak connection makes 5 stops on its way to Austin. If we want rail to be a viable option to connect the two cities, we need to have a serious conversation about the schedule and speed of service offered by Amtrak. That said, the emissions implications of shifting even a portion of travelers to rail cannot be understated. Additionally, the experience of rail can often be more enjoyable than flying. No waiting around in the terminal, no security, and most importantly, a beautiful view out the window as you cruise across the land
 
 Carbon Emissions By Fuel Type
+
 Jet fuel emits a substantially larger load of CO2 into the atmosphere while trains maintain a smaller CO2 footprint (small blue bars near the bottom) regardless of population growth rates. There are still active train rails from Austin to Dallas. As population growth for these major cities shows a steady trend higher upwards, we recommend taking the train whenever possible if commuting between these two major destinations.
 
 
